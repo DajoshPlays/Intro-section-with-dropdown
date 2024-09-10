@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Section With Dropdown Navigation</title>
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font Awesome link -->
+  <script
+  src="https://kit.fontawesome.com/78f952cbe9.js"
+  crossorigin="anonymous"
+></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-content">
+                <div class="nav-link1">
+                    <div class="navlogocont"><img src="./logo.svg" alt="logoicon"></div>
+                    <div class="droplinks">
+                        <ul>
+                            <li><a class="navlinks" href="#">Features <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a class="navlinks" href="#">Company <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a class="navlinks" href="#">  Careers</a></li>
+                            <li><a class="navlinks" href="#">  About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-link2">
+                    <div class="nav-login"><a href="#">Login</a></div>
+                    <button class="nav-btn">Register</button>
+                </div>
+                <div id="drop-bars"><img class="dropdownbtn" src="./icon-menu.svg" alt=""></div>
+            </div>
+            <div class="sidenav">
+                <div class="sidenav-cont">
+                    <div class="closebutton-cont">
+                        <img class="closebutton" src="./icon-close-menu.svg" alt="closebutton">
+                    </div>
+                    <div class="sidenavlinks">
+                        <div class="links-cont">
+                            <ul>
+                                <li><a class="poplinks" href="#">Features <i class="fa-solid fa-angle-down"></i></a></li>
+                                <li><a class="poplinks" href="#">Company <i class="fa-solid fa-angle-down"></i></a></li>
+                                <li><a class="poplinks" href="#">  Careers</a></li>
+                                <li><a class="poplinks" href="#">  About</a></li>
+                            </ul>
+                        </div>
+                        <div class="link2">
+                            <div><a href="#">Login</a></div>
+                            <button class="pop-btn">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-container">
+            <div class="hero-img-cont">
+                <img class="mobilehero" src="./image-hero-mobile.png" alt="mobilehero">
+                <img src="./image-hero-desktop.png" alt="" class="dsktp">
+            </div>
+            <div class="herotext">
+                <div class="h1-cont"><h1 class="hero-h1">Make remote work</h1></div>
+                <div class="p-cont"><p class="hero-p">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p></div>
+                <button class="hero-btn">Learn more</button>
+                <div class="clientimg">
+                    <img src="./client-databiz.svg" alt="databizicon">
+                    <img src="./client-audiophile.svg" alt="audiophileicon">
+                    <img src="./client-meet.svg" alt="meeticon">
+                    <img src="./client-maker.svg" alt="makericon">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
