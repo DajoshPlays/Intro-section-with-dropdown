@@ -228,27 +228,27 @@ html{
         margin: auto;
     }
     .hero-img-cont{
-        flex-basis: 50%;
+        flex: 1 1 50%;
         padding: 3rem;
     }
     .herotext{
-        flex-basis: 50%;
+        flex: 1 1 50%;
         text-align: left;
         align-items: flex-start;
-        gap: 60px;
+        gap: 39px;
         margin: 0;
         padding: 3rem;
     }
     .h1-cont{
-        max-width: 30vw;
+        width: 39vw;
     }
     .hero-h1{
-        font-size: 6.5rem;
+        font-size: 6rem;
     }
     .p-cont{
-        max-width: 87vw;
+        width: 40vw;
     }
     .hero-p{
-        font-size: 3.5rem;
+        font-size: 1.7rem;
     }
 }
