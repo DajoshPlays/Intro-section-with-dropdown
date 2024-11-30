@@ -120,7 +120,7 @@ html{
     font-size: 3rem;
 }
 .p-cont{
-    max-width: 87vw;
+    width: 87vw;
 }
 .hero-p{
     font-family: var(--main-font);
@@ -160,6 +160,7 @@ html{
     .nav-link1{
         display: flex;
         gap: 60px;
+        align-items: center;
     }
     .droplinks{
         display: flex;
@@ -250,5 +251,19 @@ html{
     }
     .hero-p{
         font-size: 1.7rem;
+    }
+}
+@media (min-width: 1440px){
+    .nav-content{
+        align-items: center;
+    }
+    .droplinks{
+        display: flex;
+    }
+    .h1-cont{
+        width: 28vw;
+    }
+    .p-cont{
+        width: 31vw;
     }
 }
